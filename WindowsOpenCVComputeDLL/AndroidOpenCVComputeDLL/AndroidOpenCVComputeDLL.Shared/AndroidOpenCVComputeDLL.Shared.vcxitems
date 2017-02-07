@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{8cf03b60-bddb-4624-b09f-fcc4dd3b9c79}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\WindowsOpenCVComputeDLL\WindowsOpenCVComputeDLL.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)AndroidOpenCVComputeDLL.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\WindowsOpenCVComputeDLL\WindowsOpenCVComputeDLL.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)AndroidOpenCVComputeDLL.h" />
+  </ItemGroup>
+</Project>

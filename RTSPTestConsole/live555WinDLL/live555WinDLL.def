@@ -1,0 +1,8 @@
+LIBRARY live555WinDll
+EXPORTS
+RTSPServer_Create	@1
+RTSPServer_InjectFrame			@2
+RTSPServer_Play	@3
+RTSPClient_Create	@4
+RTSPClient_GetFrame	@5
+RTSPClient_Listen	@6

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:support="clr-namespace:AuthentiDocTake2.Support"
+             xmlns:controls="clr-namespace:XLabs.Forms.Controls;assembly=XLabs.Forms"
+             x:Class="AuthentiDocTake2.AuthenticDocPage">
+  <RelativeLayout BackgroundColor="Black" >
+    <Image x:Name="displayImage"
+          RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"
+          RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.25}"
+          Source="{Binding imageSource, Mode=TwoWay}"
+    />
+    <Editor x:Name="editor"
+          RelativeLayout.WidthConstraint = "{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"
+          RelativeLayout.HeightConstraint = "{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.25}"
+          RelativeLayout.YConstraint="{support:RelativeToViewVertical ElementName=displayImage}"
+          Text = "{Binding TextResult}" >
+    </Editor>
+    <Button x:Name="cameraButton"
+          Text="{Binding buttonCameraName, Mode=TwoWay}"
+          RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.10}"
+          RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.05}"
+          RelativeLayout.YConstraint="{support:RelativeToViewVertical ElementName=editor}"
+          Command ="{Binding TakePictureFromCameraCommand}">
+    </Button>
+    <Button x:Name="fileButton" Text="File"
+          RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.10}"
+          RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.05}"
+          RelativeLayout.YConstraint="{support:RelativeToViewVertical ElementName=editor}"
+          RelativeLayout.XConstraint="{support:RelativeToViewHorizontal ElementName=cameraButton}"
+          Command ="{Binding LoadImageFromFileCommand}">
+    </Button>
+    <Button x:Name="URLButton" Text="URL"
+      RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.10}"
+      RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.05}"
+      RelativeLayout.YConstraint="{support:RelativeToViewVertical ElementName=editor}"
+      RelativeLayout.XConstraint="{support:RelativeToViewHorizontal ElementName=fileButton}"
+      Command ="{Binding LoadImageFromURLCommand}">
+    </Button>
+    <Button x:Name="ProcessButton" Text="Process"
+         RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.10}"
+         RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.05}"
+         RelativeLayout.YConstraint="{support:RelativeToViewVertical ElementName=fileButton}"
+         RelativeLayout.XConstraint="{support:RelativeToViewHorizontal ElementName=cameraButton, Factor=0.5}"
+         Command ="{Binding ProcessCommand}"
+         >
+      <Button.Opacity>
+        1.0
+      </Button.Opacity>
+    </Button>
+    <Button x:Name="testButton" Text="Test"
+      RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.10}"
+      RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.05}"
+      RelativeLayout.YConstraint="{support:RelativeToViewVertical ElementName=fileButton, Factor=3}"
+      RelativeLayout.XConstraint="{support:RelativeToViewHorizontal ElementName=fileButton, , Factor=3}"
+      Command ="{Binding TestButtonCommand}">
+    </Button>
+    <Entry x:Name="URLEntry" Text="{Binding urlEntryText, Mode=TwoWay}" Keyboard="Url"
+           RelativeLayout.YConstraint="{support:RelativeToViewVertical ElementName=fileButton, Factor=-1}" />
+    <Picker x:Name="URLEntryPicker"  SelectedIndex="{Binding urlEntryItemsSelected}"
+            RelativeLayout.XConstraint="{support:RelativeToViewHorizontal ElementName=URLEntry}"
+            RelativeLayout.YConstraint="{support:RelativeToViewVertical ElementName=fileButton, Factor=-1}">
+    </Picker>
+    <!--OpenGLView x:Name="openGLView" BackgroundColor="Green" />-->
+</RelativeLayout>
+  <ContentPage.Resources>
+    <ResourceDictionary>
+      <Color x:Key="textColor">Red</Color>
+      <Style TargetType="Button">
+        <!--Setter Property="Background" Value="red"/-->
+      </Style>
+    </ResourceDictionary>
+  </ContentPage.Resources>
+</ContentPage>

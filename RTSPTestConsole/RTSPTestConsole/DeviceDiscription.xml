@@ -1,0 +1,38 @@
+<root xmlns="urn:schemas-upnp-org:device-1-0" xmlns:sec="http://www.sec.co.kr/dlna" xmlns:dlna="urn:schemas-dlna-org:device-1-0">
+	<specVersion>
+		<major>1</major>
+		<minor>0</minor>
+	</specVersion>
+	<device>
+		<dlna:X_DLNADOC>DMS-1.50</dlna:X_DLNADOC>
+		<deviceType>urn:schemas-upnp-org:device:MediaServer:1</deviceType>
+		<friendlyName>[Camera]Elad</friendlyName>
+		<manufacturer>Elads</manufacturer>
+		<manufacturerURL>http://%d.%d.%d.%d:%d/m</manufacturerURL>
+		<modelDescription>EladsCamera</modelDescription>
+		<modelName>Elad1</modelName>
+		<modelNumber>1.0</modelNumber>
+		<modelURL>http://%d.%d.%d.%d:%d/m</modelURL>
+		<serialNumber>140577</serialNumber>
+		<sec:X_ProductCap></sec:X_ProductCap>
+		<UDN>uuid:3D64FEBC-AE6A-4584-853A-85368CA80800</UDN>
+		<serviceList>
+			<service>
+				<serviceType>urn:schemas-upnp-org:service:ContentDirectory:1</serviceType>
+				<serviceId>urn:upnp-org:serviceId:ContentDirectory</serviceId>
+				<controlURL>/ContentDirectoryControl</controlURL>
+				<eventSubURL>/ContentDirectoryEvent</eventSubURL>
+				<SCPDURL>/ContentDirectorySCPD</SCPDURL>
+			</service>
+			<service>
+				<serviceType>urn:schemas-upnp-org:service:ConnectionManager:1</serviceType>
+				<serviceId>urn:upnp-org:serviceId:ConnectionManager</serviceId>
+				<controlURL>/ConnectionManagerControl</controlURL>
+				<eventSubURL>/ConnectionManagerEvent</eventSubURL>
+				<SCPDURL>/ConnectionManagerSCDP</SCPDURL>
+			</service>
+		</serviceList>
+		<sec:deviceID>
+</sec:deviceID>
+	</device>
+</root>

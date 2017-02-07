@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>975349cf-cab0-4fd5-bd89-fcb4d3284771</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>AuthentiDocTake2</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ApplicationResourceExtension .cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AsyncUrlDownload.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AurthenticDocModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AuthenticDocPage.xaml.cs">
+      <DependentUpon>AuthenticDocPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)BaseNavigationViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Constants.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IImageSupport.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IThreadingCrossPlatform.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LoadImageFormats.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SignalProcess.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)StreamableImageSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Support\RelativeToView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Support\RelativeToViewHorizontal.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Support\RelativeToViewVertical .cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Support\RelayCommand.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)GettingStarted.Xamarin" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)AuthenticDocPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

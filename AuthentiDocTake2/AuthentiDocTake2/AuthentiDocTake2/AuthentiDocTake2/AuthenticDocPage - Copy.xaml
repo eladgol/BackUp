@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:XLabs.Forms.Controls;assembly=XLabs.Forms"
+             x:Class="AuthentiDocTake2.AuthenticDocPage">
+	<Label Text="{Binding MainText}" VerticalOptions="Center" HorizontalOptions="Center" />
+  <StackLayout
+  Orientation = "Horizontal">
+
+      <Image x:Name="displayImage" Aspect="AspectFit" VerticalOptions="Fill" HorizontalOptions="Center" />
+      <Editor x:Name="editor" VerticalOptions="Fill" HorizontalOptions="Center" />
+      <Button x:Name="cameraButton"
+              Text="Camera"
+            HorizontalOptions="StartAndExpand"
+            VerticalOptions="End"/>
+      <Button x:Name="fileButton"
+              Text="File"
+           HorizontalOptions="EndAndExpand"
+           VerticalOptions="End"/>
+  </StackLayout>
+</ContentPage>

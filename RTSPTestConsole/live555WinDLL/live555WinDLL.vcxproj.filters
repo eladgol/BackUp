@@ -1,0 +1,2072 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Orig">
+      <UniqueIdentifier>{8d5b624f-cb2f-4aa2-a93f-196fec9c1ab1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Android_Live555">
+      <UniqueIdentifier>{623e4ae3-39b4-4358-992d-2fa7a5442021}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Android_Live555\BasicUsageEnvironment">
+      <UniqueIdentifier>{2951393b-7b6b-4a95-9c3e-09ced4c8dbbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Android_Live555\groupsock">
+      <UniqueIdentifier>{f2b13621-6062-450b-bf2c-019d0b6052c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Android_Live555\liveMedia">
+      <UniqueIdentifier>{a209f18a-c340-4551-8359-160a981ab889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Android_Live555\UsageEnvironment">
+      <UniqueIdentifier>{146fc0f0-f99f-4883-8b77-5ddd132774e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTPSimpleSmallServer">
+      <UniqueIdentifier>{436b5322-e6ce-40be-8bdf-6379eb21efb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTPSimpleSmallServer\libevent">
+      <UniqueIdentifier>{85eacf65-fdee-4a3b-a75a-10d29ff5ed95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTPSimpleSmallServer\libevent\include">
+      <UniqueIdentifier>{a2f828c9-d37d-452a-9d4a-cba1f4f2c173}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTPSimpleSmallServer\libevent\include\NewFilter1">
+      <UniqueIdentifier>{85edf86b-7776-4f43-905f-4e5caec9ab82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\EBMLNumber.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\H263plusVideoStreamParser.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\AC3AudioFileServerMediaSubsession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\AC3AudioRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\AC3AudioRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\AC3AudioStreamFramer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\ADTSAudioFileServerMediaSubsession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\ADTSAudioFileSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\AMRAudioFileServerMediaSubsession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\AMRAudioFileSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\AMRAudioFileSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\AMRAudioRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\AMRAudioRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\AMRAudioSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\AudioInputDevice.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\AudioRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\AVIFileSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\Base64.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\BasicUDPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\BasicUDPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\BitVector.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\ByteStreamFileSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\ByteStreamMemoryBufferSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\ByteStreamMultiFileSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\DeviceSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\DigestAuthentication.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\DVVideoFileServerMediaSubsession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\DVVideoRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\DVVideoRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\DVVideoStreamFramer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\FileServerMediaSubsession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\FileSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\FramedFileSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\FramedFilter.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\FramedSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\GenericMediaServer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\GSMAudioRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\H261VideoRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\H263plusVideoFileServerMediaSubsession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\H263plusVideoRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\H263plusVideoRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\H263plusVideoStreamFramer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\H264or5VideoFileSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\H264or5VideoRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\H264or5VideoStreamDiscreteFramer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\H264or5VideoStreamFramer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\H264VideoFileServerMediaSubsession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\H264VideoFileSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\H264VideoRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\H264VideoRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\H264VideoStreamDiscreteFramer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\H264VideoStreamFramer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\H265VideoFileServerMediaSubsession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\H265VideoFileSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\H265VideoRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\H265VideoRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\H265VideoStreamDiscreteFramer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\H265VideoStreamFramer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\InputFile.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\JPEGVideoRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\JPEGVideoRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\JPEGVideoSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\liveMedia.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\liveMedia_version.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\Locale.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MatroskaFile.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MatroskaFileServerDemux.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\Media.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MediaSession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MediaSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MediaSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MP3ADU.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MP3ADUinterleaving.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MP3ADURTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MP3ADURTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MP3ADUTranscoder.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MP3AudioFileServerMediaSubsession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MP3FileSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MP3Transcoder.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MPEG1or2AudioRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MPEG1or2AudioRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MPEG1or2AudioStreamFramer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MPEG1or2Demux.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MPEG1or2DemuxedElementaryStream.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MPEG1or2DemuxedServerMediaSubsession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MPEG1or2FileServerDemux.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MPEG1or2VideoFileServerMediaSubsession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MPEG1or2VideoRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MPEG1or2VideoRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MPEG1or2VideoStreamDiscreteFramer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MPEG1or2VideoStreamFramer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MPEG2IndexFromTransportStream.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MPEG2TransportFileServerMediaSubsession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MPEG2TransportStreamFramer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MPEG2TransportStreamFromESSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MPEG2TransportStreamFromPESSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MPEG2TransportStreamIndexFile.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MPEG2TransportStreamMultiplexor.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MPEG2TransportStreamTrickModeFilter.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MPEG2TransportUDPServerMediaSubsession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MPEG4ESVideoRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MPEG4ESVideoRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MPEG4GenericRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MPEG4GenericRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MPEG4LATMAudioRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MPEG4LATMAudioRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MPEG4VideoFileServerMediaSubsession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MPEG4VideoStreamDiscreteFramer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MPEG4VideoStreamFramer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MPEGVideoStreamFramer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MultiFramedRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\MultiFramedRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\OggFile.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\OggFileServerDemux.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\OggFileSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\OnDemandServerMediaSubsession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\ourMD5.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\OutputFile.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\PassiveServerMediaSubsession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\ProxyServerMediaSession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\QCELPAudioRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\QuickTimeFileSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\QuickTimeGenericRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\RTCP.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\RTPInterface.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\RTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\RTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\RTSPClient.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\RTSPCommon.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\RTSPRegisterSender.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\RTSPServer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\RTSPServerSupportingHTTPStreaming.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\ServerMediaSession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\SimpleRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\SimpleRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\SIPClient.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\StreamReplicator.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\T140TextRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\TCPStreamSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\TextRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\TheoraVideoRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\TheoraVideoRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\uLawAudioFilter.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\VideoRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\VorbisAudioRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\VorbisAudioRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\VP8VideoRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\VP8VideoRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\VP9VideoRTPSink.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\VP9VideoRTPSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\WAVAudioFileServerMediaSubsession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\include\WAVAudioFileSource.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\MatroskaDemuxedTrack.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\MatroskaFileParser.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\MatroskaFileServerMediaSubsession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\MP3ADUdescriptor.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\MP3AudioMatroskaFileServerMediaSubsession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\MP3Internals.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\MP3InternalsHuffman.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\MP3StreamState.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\MPEGVideoStreamParser.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\OggDemuxedTrack.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\OggFileParser.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\OggFileServerMediaSubsession.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\rtcp_from_spec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\liveMedia\StreamParser.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\groupsock\include\GroupEId.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\groupsock\include\Groupsock.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\groupsock\include\GroupsockHelper.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\groupsock\include\groupsock_version.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\groupsock\include\IOHandlers.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\groupsock\include\NetAddress.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\groupsock\include\NetCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\groupsock\include\NetInterface.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\groupsock\include\TunnelEncaps.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\BasicUsageEnvironment\include\BasicHashTable.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\BasicUsageEnvironment\include\BasicUsageEnvironment.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\BasicUsageEnvironment\include\BasicUsageEnvironment0.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\BasicUsageEnvironment\include\BasicUsageEnvironment_version.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\BasicUsageEnvironment\include\DelayQueue.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\BasicUsageEnvironment\include\HandlerSet.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\UsageEnvironment\include\Boolean.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\UsageEnvironment\include\HashTable.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\UsageEnvironment\include\strDup.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\UsageEnvironment\include\UsageEnvironment.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MyCode\live555Android_\UsageEnvironment\include\UsageEnvironment_version.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="testH264VideoStreamer.h">
+      <Filter>Orig</Filter>
+    </ClInclude>
+    <ClInclude Include="live555WinDLL.h">
+      <Filter>Orig</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\BasicUsageEnvironment\include\BasicHashTable.hh">
+      <Filter>Android_Live555\BasicUsageEnvironment</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\BasicUsageEnvironment\include\BasicUsageEnvironment.hh">
+      <Filter>Android_Live555\BasicUsageEnvironment</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\BasicUsageEnvironment\include\BasicUsageEnvironment0.hh">
+      <Filter>Android_Live555\BasicUsageEnvironment</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\BasicUsageEnvironment\include\BasicUsageEnvironment_version.hh">
+      <Filter>Android_Live555\BasicUsageEnvironment</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\BasicUsageEnvironment\include\DelayQueue.hh">
+      <Filter>Android_Live555\BasicUsageEnvironment</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\BasicUsageEnvironment\include\HandlerSet.hh">
+      <Filter>Android_Live555\BasicUsageEnvironment</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\groupsock\include\GroupEId.hh">
+      <Filter>Android_Live555\groupsock</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\groupsock\include\Groupsock.hh">
+      <Filter>Android_Live555\groupsock</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\groupsock\include\GroupsockHelper.hh">
+      <Filter>Android_Live555\groupsock</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\groupsock\include\groupsock_version.hh">
+      <Filter>Android_Live555\groupsock</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\groupsock\include\IOHandlers.hh">
+      <Filter>Android_Live555\groupsock</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\groupsock\include\NetAddress.hh">
+      <Filter>Android_Live555\groupsock</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\groupsock\include\NetCommon.h">
+      <Filter>Android_Live555\groupsock</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\groupsock\include\NetInterface.hh">
+      <Filter>Android_Live555\groupsock</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\groupsock\include\TunnelEncaps.hh">
+      <Filter>Android_Live555\groupsock</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\EBMLNumber.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\H263plusVideoStreamParser.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\MatroskaDemuxedTrack.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\MatroskaFileParser.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\MatroskaFileServerMediaSubsession.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\MP3ADUdescriptor.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\MP3AudioMatroskaFileServerMediaSubsession.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\MP3Internals.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\MP3InternalsHuffman.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\MP3StreamState.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\MPEGVideoStreamParser.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\OggDemuxedTrack.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\OggFileParser.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\OggFileServerMediaSubsession.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\rtcp_from_spec.h">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\StreamParser.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\AC3AudioFileServerMediaSubsession.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\AC3AudioRTPSink.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\AC3AudioRTPSource.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\AC3AudioStreamFramer.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\ADTSAudioFileServerMediaSubsession.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\ADTSAudioFileSource.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\AMRAudioFileServerMediaSubsession.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\AMRAudioFileSink.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\AMRAudioFileSource.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\AMRAudioRTPSink.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\AMRAudioRTPSource.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\AMRAudioSource.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\AudioInputDevice.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\AudioRTPSink.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\AVIFileSink.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\Base64.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\BasicUDPSink.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\BasicUDPSource.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\BitVector.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\ByteStreamFileSource.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\ByteStreamMemoryBufferSource.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\ByteStreamMultiFileSource.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\DigestAuthentication.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\DVVideoFileServerMediaSubsession.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\DVVideoRTPSink.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\DVVideoRTPSource.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\DVVideoStreamFramer.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\FileServerMediaSubsession.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\FileSink.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\FramedFileSource.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\FramedFilter.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\FramedSource.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\GenericMediaServer.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\GSMAudioRTPSink.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\H261VideoRTPSource.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\H263plusVideoFileServerMediaSubsession.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\H263plusVideoRTPSink.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\H263plusVideoRTPSource.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\H263plusVideoStreamFramer.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\H264or5VideoFileSink.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\H264or5VideoRTPSink.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\H264or5VideoStreamDiscreteFramer.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\H264or5VideoStreamFramer.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\H264VideoFileServerMediaSubsession.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\H264VideoFileSink.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\H264VideoRTPSink.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\H264VideoRTPSource.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\H264VideoStreamDiscreteFramer.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\H264VideoStreamFramer.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\H265VideoFileServerMediaSubsession.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\H265VideoFileSink.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\H265VideoRTPSink.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\H265VideoRTPSource.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\H265VideoStreamDiscreteFramer.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\H265VideoStreamFramer.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\InputFile.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\JPEGVideoRTPSink.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\JPEGVideoRTPSource.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\JPEGVideoSource.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\liveMedia.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\liveMedia_version.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\Locale.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MatroskaFile.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MatroskaFileServerDemux.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\Media.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MediaSession.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MediaSink.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MediaSource.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MP3ADU.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MP3ADUinterleaving.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MP3ADURTPSink.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MP3ADURTPSource.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MP3ADUTranscoder.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MP3AudioFileServerMediaSubsession.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MP3FileSource.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MP3Transcoder.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MPEG1or2AudioRTPSink.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MPEG1or2AudioRTPSource.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MPEG1or2AudioStreamFramer.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MPEG1or2Demux.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MPEG1or2DemuxedElementaryStream.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MPEG1or2DemuxedServerMediaSubsession.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MPEG1or2FileServerDemux.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MPEG1or2VideoFileServerMediaSubsession.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MPEG1or2VideoRTPSink.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MPEG1or2VideoRTPSource.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MPEG1or2VideoStreamDiscreteFramer.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MPEG1or2VideoStreamFramer.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MPEG2IndexFromTransportStream.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MPEG2TransportFileServerMediaSubsession.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MPEG2TransportStreamFramer.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MPEG2TransportStreamFromESSource.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MPEG2TransportStreamFromPESSource.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MPEG2TransportStreamIndexFile.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MPEG2TransportStreamMultiplexor.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MPEG2TransportStreamTrickModeFilter.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MPEG2TransportUDPServerMediaSubsession.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MPEG4ESVideoRTPSink.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MPEG4ESVideoRTPSource.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MPEG4GenericRTPSink.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MPEG4GenericRTPSource.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MPEG4LATMAudioRTPSink.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MPEG4LATMAudioRTPSource.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MPEG4VideoFileServerMediaSubsession.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MPEG4VideoStreamDiscreteFramer.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MPEG4VideoStreamFramer.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MPEGVideoStreamFramer.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MultiFramedRTPSink.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\MultiFramedRTPSource.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\OggFile.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\OggFileServerDemux.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\OggFileSink.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\OnDemandServerMediaSubsession.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\ourMD5.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\OutputFile.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\PassiveServerMediaSubsession.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\ProxyServerMediaSession.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\QCELPAudioRTPSource.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\QuickTimeFileSink.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\QuickTimeGenericRTPSource.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\RTCP.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\RTPInterface.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\RTPSink.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\RTPSource.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\RTSPClient.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\RTSPCommon.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\RTSPRegisterSender.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\RTSPServer.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\RTSPServerSupportingHTTPStreaming.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\ServerMediaSession.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\SimpleRTPSink.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\SimpleRTPSource.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\SIPClient.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\StreamReplicator.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\T140TextRTPSink.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\TCPStreamSink.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\TextRTPSink.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\TheoraVideoRTPSink.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\TheoraVideoRTPSource.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\uLawAudioFilter.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\VideoRTPSink.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\VorbisAudioRTPSink.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\VorbisAudioRTPSource.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\VP8VideoRTPSink.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\VP8VideoRTPSource.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\VP9VideoRTPSink.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\VP9VideoRTPSource.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\WAVAudioFileServerMediaSubsession.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\liveMedia\include\WAVAudioFileSource.hh">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\UsageEnvironment\include\Boolean.hh">
+      <Filter>Android_Live555\UsageEnvironment</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\UsageEnvironment\include\HashTable.hh">
+      <Filter>Android_Live555\UsageEnvironment</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\UsageEnvironment\include\strDup.hh">
+      <Filter>Android_Live555\UsageEnvironment</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\UsageEnvironment\include\UsageEnvironment.hh">
+      <Filter>Android_Live555\UsageEnvironment</Filter>
+    </ClInclude>
+    <ClInclude Include="AndroidLive555\UsageEnvironment\include\UsageEnvironment_version.hh">
+      <Filter>Android_Live555\UsageEnvironment</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceSource.hh">
+      <Filter>Orig</Filter>
+    </ClInclude>
+    <ClInclude Include="testRTSPClient.h">
+      <Filter>Orig</Filter>
+    </ClInclude>
+    <ClInclude Include="RTSPClientClasses.h">
+      <Filter>Orig</Filter>
+    </ClInclude>
+    <ClInclude Include="H264OnDemandServerMediaSubsession.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RunRTSPServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SSDP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ssdp\gssdp-protocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\HTTPSimpleSmallServer\HTTPSmallServer.h">
+      <Filter>HTTPSimpleSmallServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\HTTPSimpleSmallServer\IHTTPSmallServer.h">
+      <Filter>HTTPSimpleSmallServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\bufferevent-internal.h">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\changelist-internal.h">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\defer-internal.h">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\epolltable-internal.h">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\evbuffer-internal.h">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\event-internal.h">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\evmap-internal.h">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\evrpc-internal.h">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\evsignal-internal.h">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\evthread-internal.h">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\ht-internal.h">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\http-internal.h">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\iocp-internal.h">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\ipv6-internal.h">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\kqueue-internal.h">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\log-internal.h">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\minheap-internal.h">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\mm-internal.h">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\openssl-compat.h">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\ratelim-internal.h">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\strlcpy-internal.h">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\time-internal.h">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\util-internal.h">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\include\event2\buffer.h">
+      <Filter>HTTPSimpleSmallServer\libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\include\event2\bufferevent.h">
+      <Filter>HTTPSimpleSmallServer\libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\include\event2\bufferevent_compat.h">
+      <Filter>HTTPSimpleSmallServer\libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\include\event2\bufferevent_ssl.h">
+      <Filter>HTTPSimpleSmallServer\libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\include\event2\bufferevent_struct.h">
+      <Filter>HTTPSimpleSmallServer\libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\include\event2\buffer_compat.h">
+      <Filter>HTTPSimpleSmallServer\libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\include\event2\dns.h">
+      <Filter>HTTPSimpleSmallServer\libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\include\event2\dns_compat.h">
+      <Filter>HTTPSimpleSmallServer\libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\include\event2\dns_struct.h">
+      <Filter>HTTPSimpleSmallServer\libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\include\event2\event.h">
+      <Filter>HTTPSimpleSmallServer\libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\include\event2\event_compat.h">
+      <Filter>HTTPSimpleSmallServer\libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\include\event2\event_struct.h">
+      <Filter>HTTPSimpleSmallServer\libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\include\event2\http.h">
+      <Filter>HTTPSimpleSmallServer\libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\include\event2\http_compat.h">
+      <Filter>HTTPSimpleSmallServer\libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\include\event2\http_struct.h">
+      <Filter>HTTPSimpleSmallServer\libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\include\event2\keyvalq_struct.h">
+      <Filter>HTTPSimpleSmallServer\libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\include\event2\listener.h">
+      <Filter>HTTPSimpleSmallServer\libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\include\event2\rpc.h">
+      <Filter>HTTPSimpleSmallServer\libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\include\event2\rpc_compat.h">
+      <Filter>HTTPSimpleSmallServer\libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\include\event2\rpc_struct.h">
+      <Filter>HTTPSimpleSmallServer\libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\include\event2\tag.h">
+      <Filter>HTTPSimpleSmallServer\libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\include\event2\tag_compat.h">
+      <Filter>HTTPSimpleSmallServer\libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\include\event2\thread.h">
+      <Filter>HTTPSimpleSmallServer\libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\include\event2\util.h">
+      <Filter>HTTPSimpleSmallServer\libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\include\event2\visibility.h">
+      <Filter>HTTPSimpleSmallServer\libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\include\evdns.h">
+      <Filter>HTTPSimpleSmallServer\libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\include\event.h">
+      <Filter>HTTPSimpleSmallServer\libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\include\evhttp.h">
+      <Filter>HTTPSimpleSmallServer\libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\include\evrpc.h">
+      <Filter>HTTPSimpleSmallServer\libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\include\evutil.h">
+      <Filter>HTTPSimpleSmallServer\libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\bin\include\event2\event-config.h">
+      <Filter>HTTPSimpleSmallServer\libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libevent\bin\include\evconfig-private.h">
+      <Filter>HTTPSimpleSmallServer\libevent\include</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceDiscription.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ssdp\HTTPServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="testH264VideoStreamer.cpp">
+      <Filter>Orig</Filter>
+    </ClCompile>
+    <ClCompile Include="live555WinDLL.cpp">
+      <Filter>Orig</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceSource.cpp">
+      <Filter>Orig</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Orig</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\BasicUsageEnvironment\BasicUsageEnvironment.cpp">
+      <Filter>Android_Live555\BasicUsageEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\BasicUsageEnvironment\BasicUsageEnvironment0.cpp">
+      <Filter>Android_Live555\BasicUsageEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\BasicUsageEnvironment\DelayQueue.cpp">
+      <Filter>Android_Live555\BasicUsageEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\BasicUsageEnvironment\BasicHashTable.cpp">
+      <Filter>Android_Live555\BasicUsageEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\BasicUsageEnvironment\BasicTaskScheduler.cpp">
+      <Filter>Android_Live555\BasicUsageEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\BasicUsageEnvironment\BasicTaskScheduler0.cpp">
+      <Filter>Android_Live555\BasicUsageEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\groupsock\GroupEId.cpp">
+      <Filter>Android_Live555\groupsock</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\groupsock\Groupsock.cpp">
+      <Filter>Android_Live555\groupsock</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\groupsock\GroupsockHelper.cpp">
+      <Filter>Android_Live555\groupsock</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\groupsock\inet.c">
+      <Filter>Android_Live555\groupsock</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\groupsock\IOHandlers.cpp">
+      <Filter>Android_Live555\groupsock</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\groupsock\NetAddress.cpp">
+      <Filter>Android_Live555\groupsock</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\groupsock\NetInterface.cpp">
+      <Filter>Android_Live555\groupsock</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\AC3AudioFileServerMediaSubsession.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\AC3AudioRTPSink.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\AC3AudioRTPSource.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\AC3AudioStreamFramer.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\ADTSAudioFileServerMediaSubsession.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\ADTSAudioFileSource.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\AMRAudioFileServerMediaSubsession.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\AMRAudioFileSink.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\AMRAudioFileSource.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\AMRAudioRTPSink.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\AMRAudioRTPSource.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\AMRAudioSource.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\AudioInputDevice.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\AudioRTPSink.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\AVIFileSink.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\Base64.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\BasicUDPSink.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\BasicUDPSource.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\BitVector.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\ByteStreamFileSource.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\ByteStreamMemoryBufferSource.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\ByteStreamMultiFileSource.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\DigestAuthentication.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\DVVideoFileServerMediaSubsession.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\DVVideoRTPSink.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\DVVideoRTPSource.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\DVVideoStreamFramer.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\EBMLNumber.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\FileServerMediaSubsession.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\FileSink.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\FramedFileSource.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\FramedFilter.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\FramedSource.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\GenericMediaServer.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\GSMAudioRTPSink.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\H261VideoRTPSource.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\H263plusVideoFileServerMediaSubsession.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\H263plusVideoRTPSink.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\H263plusVideoRTPSource.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\H263plusVideoStreamFramer.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\H263plusVideoStreamParser.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\H264or5VideoFileSink.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\H264or5VideoRTPSink.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\H264or5VideoStreamDiscreteFramer.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\H264or5VideoStreamFramer.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\H264VideoFileServerMediaSubsession.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\H264VideoFileSink.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\H264VideoRTPSink.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\H264VideoRTPSource.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\H264VideoStreamDiscreteFramer.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\H264VideoStreamFramer.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\H265VideoFileServerMediaSubsession.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\H265VideoFileSink.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\H265VideoRTPSink.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\H265VideoRTPSource.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\H265VideoStreamDiscreteFramer.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\H265VideoStreamFramer.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\InputFile.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\JPEGVideoRTPSink.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\JPEGVideoRTPSource.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\JPEGVideoSource.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\Locale.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MatroskaDemuxedTrack.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MatroskaFile.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MatroskaFileParser.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MatroskaFileServerDemux.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MatroskaFileServerMediaSubsession.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\Media.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MediaSession.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MediaSink.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MediaSource.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MP3ADU.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MP3ADUdescriptor.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MP3ADUinterleaving.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MP3ADURTPSink.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MP3ADURTPSource.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MP3ADUTranscoder.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MP3AudioFileServerMediaSubsession.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MP3AudioMatroskaFileServerMediaSubsession.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MP3FileSource.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MP3Internals.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MP3InternalsHuffman.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MP3InternalsHuffmanTable.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MP3StreamState.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MP3Transcoder.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MPEG1or2AudioRTPSink.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MPEG1or2AudioRTPSource.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MPEG1or2AudioStreamFramer.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MPEG1or2Demux.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MPEG1or2DemuxedElementaryStream.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MPEG1or2DemuxedServerMediaSubsession.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MPEG1or2FileServerDemux.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MPEG1or2VideoFileServerMediaSubsession.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MPEG1or2VideoRTPSink.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MPEG1or2VideoRTPSource.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MPEG1or2VideoStreamDiscreteFramer.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MPEG1or2VideoStreamFramer.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MPEG2IndexFromTransportStream.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MPEG2TransportFileServerMediaSubsession.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MPEG2TransportStreamFramer.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MPEG2TransportStreamFromESSource.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MPEG2TransportStreamFromPESSource.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MPEG2TransportStreamIndexFile.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MPEG2TransportStreamMultiplexor.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MPEG2TransportStreamTrickModeFilter.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MPEG2TransportUDPServerMediaSubsession.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MPEG4ESVideoRTPSink.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MPEG4ESVideoRTPSource.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MPEG4GenericRTPSink.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MPEG4GenericRTPSource.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MPEG4LATMAudioRTPSink.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MPEG4LATMAudioRTPSource.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MPEG4VideoFileServerMediaSubsession.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MPEG4VideoStreamDiscreteFramer.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MPEG4VideoStreamFramer.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MPEGVideoStreamFramer.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MPEGVideoStreamParser.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MultiFramedRTPSink.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\MultiFramedRTPSource.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\OggDemuxedTrack.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\OggFile.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\OggFileParser.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\OggFileServerDemux.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\OggFileServerMediaSubsession.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\OggFileSink.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\OnDemandServerMediaSubsession.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\ourMD5.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\OutputFile.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\PassiveServerMediaSubsession.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\ProxyServerMediaSession.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\QCELPAudioRTPSource.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\QuickTimeFileSink.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\QuickTimeGenericRTPSource.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\RTCP.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\rtcp_from_spec.c">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\RTPInterface.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\RTPSink.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\RTPSource.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\RTSPClient.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\RTSPCommon.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\RTSPRegisterSender.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\RTSPServer.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\RTSPServerSupportingHTTPStreaming.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\ServerMediaSession.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\SimpleRTPSink.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\SimpleRTPSource.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\SIPClient.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\StreamParser.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\StreamReplicator.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\T140TextRTPSink.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\TCPStreamSink.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\TextRTPSink.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\TheoraVideoRTPSink.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\TheoraVideoRTPSource.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\uLawAudioFilter.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\VideoRTPSink.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\VorbisAudioRTPSink.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\VorbisAudioRTPSource.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\VP8VideoRTPSink.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\VP8VideoRTPSource.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\VP9VideoRTPSink.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\VP9VideoRTPSource.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\WAVAudioFileServerMediaSubsession.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\liveMedia\WAVAudioFileSource.cpp">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\UsageEnvironment\UsageEnvironment.cpp">
+      <Filter>Android_Live555\UsageEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\UsageEnvironment\HashTable.cpp">
+      <Filter>Android_Live555\UsageEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="AndroidLive555\UsageEnvironment\strDup.cpp">
+      <Filter>Android_Live555\UsageEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="testRTSPClient.cpp">
+      <Filter>Orig</Filter>
+    </ClCompile>
+    <ClCompile Include="RTSPClientClasses.cpp">
+      <Filter>Orig</Filter>
+    </ClCompile>
+    <ClCompile Include="H264OnDemandServerMediaSubsession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RunRTSPServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SSDP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libevent\HTTPSimpleSmallServer\HTTPSmallServer.cpp">
+      <Filter>HTTPSimpleSmallServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libevent\HTTPSimpleSmallServer\IHTTPSmallServer.cpp">
+      <Filter>HTTPSimpleSmallServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libevent\buffer.c">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libevent\buffer_iocp.c">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libevent\bufferevent.c">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libevent\bufferevent_async.c">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libevent\bufferevent_filter.c">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libevent\bufferevent_pair.c">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libevent\bufferevent_ratelim.c">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libevent\bufferevent_sock.c">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libevent\devpoll.c">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libevent\epoll.c">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libevent\event.c">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libevent\event_iocp.c">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libevent\event_tagging.c">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libevent\evmap.c">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libevent\evport.c">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libevent\evrpc.c">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libevent\evthread.c">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libevent\evthread_win32.c">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libevent\evutil.c">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libevent\evutil_rand.c">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libevent\evutil_time.c">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libevent\http.c">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libevent\kqueue.c">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libevent\listener.c">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libevent\log.c">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libevent\poll.c">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libevent\select.c">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libevent\signal.c">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libevent\strlcpy.c">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libevent\win32select.c">
+      <Filter>HTTPSimpleSmallServer\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libevent\evdns.c">
+      <Filter>HTTPSimpleSmallServer</Filter>
+    </ClCompile>
+    <ClCompile Include="ssdp\HTTPServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="live555WinDLL.def">
+      <Filter>Orig</Filter>
+    </None>
+    <None Include="AndroidLive555\groupsock\Makefile.head">
+      <Filter>Android_Live555\groupsock</Filter>
+    </None>
+    <None Include="AndroidLive555\groupsock\Makefile.tail">
+      <Filter>Android_Live555\groupsock</Filter>
+    </None>
+    <None Include="AndroidLive555\groupsock\COPYING">
+      <Filter>Android_Live555\groupsock</Filter>
+    </None>
+    <None Include="AndroidLive555\liveMedia\COPYING">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </None>
+    <None Include="AndroidLive555\liveMedia\Makefile.head">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </None>
+    <None Include="AndroidLive555\liveMedia\Makefile.tail">
+      <Filter>Android_Live555\liveMedia</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\RTSPTestConsole\DeviceDiscription.xml" />
+  </ItemGroup>
+</Project>
